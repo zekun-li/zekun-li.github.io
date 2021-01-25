@@ -4,86 +4,116 @@ section:
   id: education
   template: sections/education.html # Use "sections/education-alt.html for alternate template.
   enable: true
-  weight: 4
+  weight: 2
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
 
+
+# more icon: fa-microscope
 degrees:
-- name: Ph.D in Quantum Cryptography
-  icon: fa-microscope
-  timeframe: 2016-2020
-  institution:
-    name: ABC University of Technology
-    url: "#"
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.6
-    outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  - title: Nullam vitae orci tincidunt purus viverra pulvinar.
-    url: "#"
-- name: B.Sc. in Computer Science & Engineering
+- name: Ph.D in Computer Science
   icon: fa-graduation-cap
-  timeframe: 2012-2016
+  timeframe: 2016-Current
   institution:
-    name: University of XYZ
-    url: "#"
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.5
-    outOf: 4
+    name: University of Southern California
+    url: "https://www.usc.edu/"
+  #grade: #(optional)
+  #  scale: CGPA
+  #  achieved: 3.6
+  #  outOf: 4
+  publications: #(optional)
+  - title: ACE - Active Contour Evolution for Oriented Object Detection
+    url: #
+  - title: ChartOCR - Data Extraction from Charts Images via a Deep Hybrid Framework
+    url: #
+  - title: An Automatic Approach for Generating Rich, Linked Geo-Metadata from Historical Map Images
+    url: "https://dl.acm.org/doi/pdf/10.1145/3394486.3403381"
+  - title: Generating Historical Maps from online Maps
+    url: "https://dl.acm.org/doi/pdf/10.1145/3347146.3363463"
+  - title: Weighted Feature Pooling Network in Template-Based Recognition
+    url: "files/accv_0585.pdf"
   takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-    showGrades: true
+    showGrades: False
     courses:
-    - name: Data Structures and Algorithm
-      achieved: 3.75
-      outOf: 4
-    - name: Network Security
-      achieved: 3.80
-      outOf: 4
-    - name: Operating System
-      achieved: 3.5
-      outOf: 4
-    - name: Artificial Intelligent
-      achieved: 3.75
-      outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-- name: Higher Secondary School Certificate
+    - name: Advanced Natural Language Processing
+      #achieved: 3.75
+      #outOf: 4
+    - name: Maching Learning
+      #achieved: 3.5
+      #outOf: 4
+
+  
+
+- name: M.S. in Computer Science 
   icon: fa-university
-  timeframe: 2010-2012
+  timeframe: 2014-2016
   institution:
-    name: MST College of Science
-    url: "#"
-  grade: #(optional)
-    scale: GPA
-    achieved: 5
-    outOf: 5
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-- name: Secondary School Certificate
+    name: University of Southern California
+    url: "https://www.usc.edu/"
+  #grade: #(optional)
+  #  scale: CGPA
+  #  achieved: 3.5
+  #  outOf: 4
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: False
+    courses:
+    - name: Computer Vision 
+      #achieved: 3.75
+      #outOf: 4
+    - name: Computer Animation and Simulation
+      #achieved: 3.80
+      #outOf: 4
+    - name: 3-D Graphics and Rendering
+      #achieved: 3.75
+      #outOf: 4
+    - name: Operating Systems
+      #achieved: 3.5
+      #outOf: 4
+
+
+    
+- name: B.Sc. in Computer Science & Technology
   icon: fa-school
-  timeframe: 2005-2010
+  timeframe: 2010-2014
   institution:
-    name: JK School of Science
-  grade: #(optional)
-    scale: GPA
-    achieved: 4.5
-    outOf: 5
+    name: Chongqing University
+    url: "http://english.cqu.edu.cn/"
+  #grade: #(optional)
+  #  scale: GPA
+  #  achieved: 5
+  #  outOf: 5
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: False
+    courses:
+    - name: High-Performance Parallel Systems
+      #achieved: 3.80
+      #outOf: 4
+    - name: Computer Systems and Structures
+      #achieved: 3.80
+      #outOf: 4
+    - name: Embedded system
+      #achieved: 3.80
+      #outOf: 4
+    - name: Java Programming
+      #achieved: 3.80
+      #outOf: 4
+    - name: Object-Oreinted Design and C++
+      #achieved: 3.80
+      #outOf: 4
+    - name: Computer Networks
+      #achieved: 3.5
+      #outOf: 4
+    - name: Data Structures
+      #achieved: 3.75
+      #outOf: 4
+    - name: Software Engineering
+      #achieved: 3.75
+      #outOf: 4
+  extracurricularActivities: #(optional)
+  - Member of the Microsfot Student Club
+  - Leader of the Dandelion Charity Community - Volunteer Department
+
