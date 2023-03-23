@@ -32,7 +32,7 @@ projects:
 
 - name: SpaBERT
   logo: /images/sections/projects/github.png
-  role: Lead
+  role: First Author
   timeline: "Jan 2021 - Nov 2022"
   url: "https://github.com/zekun-li/spabert"
   summary: SpaBERT extends BERT to capture linearized spatial context, while incorporating a spatial coordinate embedding mechanism to preserve spatial relations of entities in the 2-dimensional space.
@@ -40,7 +40,7 @@ projects:
 
 - name: Synthetic Map Generation
   logo: /images/sections/projects/github.png
-  role: Lead
+  role: First Author
   timeline: "Jun 2019 - Aug 2020"
   # repo: https://github.com/tensorflow/tensorflow
   url: "https://github.com/zekun-li/generate_synthetic_historical_maps"
