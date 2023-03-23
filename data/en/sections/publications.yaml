@@ -19,6 +19,12 @@ buttons:
 - name: "Maps and Geospaital Data"
   filter: "maps"
 
+# - name: Historical Map (SIGSPATIAL 2019)
+#   #logo: /images/sections/skills/docker.svg
+#   summary: '**Zekun Li**, "Generating Historical Maps from online Maps". In Proceedings of the 27th ACM SIGSPATIAL
+# International Conference on Advances in Geographic Information Systems, pp. 610-611, Chicago, USA, 2019.'
+#   url: "https://dl.acm.org/doi/pdf/10.1145/3347146.3363463"
+
 # your publications
 publications:
 - title: "SpaBERT Pretrained Language Models on Geographic Data for Geo-Entity Representation"
