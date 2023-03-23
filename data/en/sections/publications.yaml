@@ -17,15 +17,15 @@ buttons:
 - name: "Natural Language Processing"
   filter: "nlp"
 - name: "Maps and Geospaital Data"
-  filter: "map"
+  filter: "maps"
 
 # your publications
 publications:
-- title: SpaBERT - Pretrained Language Models on Geographic Data for Geo-Entity Representation
+- title: "SpaBERT Pretrained Language Models on Geographic Data for Geo-Entity Representation"
   publishedIn:
     name: EMNLP 2022
     # date: 7 June 2020
-    url: https://aclanthology.org/2022.findings-emnlp.200
+    url: https://2022.emnlp.org/
   authors:
   - name: Zekun Li
     url: https://zekun-li.github.io
@@ -36,47 +36,146 @@ publications:
   - name: Muhao Chen
     url: https://muhaochen.github.io/
   paper:
-    summary: Voluptate in id id voluptate laboris. Minim mollit aliquip sit aliqua ut exercitation voluptate eiusmod consequat pariatur sunt enim veniam. Velit esse tempor laboris anim tempor officia. Magna non labore duis do esse sit do ipsum culpa. Officia consequat id non duis culpa dolor. Excepteur magna non nostrud cupidatat aute aliqua aliquip.
-    url: https://example.com
-  categories: ["nlp"]
-  tags: ["map", "nlp"]
+    summary: The paper proposes a novel spatial language model called SpaBERT that captures the spatial context of named geographic entities (geo-entities) in geospatial data. The model is based on the hypothesis that the characteristics of a geo-entity can be inferred by its surrounding entities, similar to word meanings in linguistic context.
+    url: https://aclanthology.org/2022.findings-emnlp.200
+  categories: ["nlp","maps"]
+  tags: ["language model","spatial data"]
 
-- title: An Sample Paper on Image Processing
+- title: "ACE: Anchor-free Corner Evolution for Real-time Arbitrarily-oriented Object Detection"
   publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
+    name: Transaction on Image Processing (TIP) 2022
+    url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83
+  authors: 
+  - name: Pengwen Dai
     url: https://example.com
-  authors:
-  - name: Dr. Madman
+  - name: Siyuan Yao
     url: https://example.com
-  - name: Dr. Lessmad
+  - name: Zekun Li
+    url: https://zekun-li.github.io
+  - name: Sanyi Zhang
     url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
+  - name: Xiaochun Cao
     url: https://example.com
   paper:
-    summary: Ullamco magna minim cupidatat Lorem ea ex aliqua fugiat et. Dolor quis cillum ea duis irure et commodo aliquip consectetur ullamco labore ut anim nisi. Commodo reprehenderit est consectetur tempor adipisicing occaecat exercitation amet do aliquip dolor do irure. Labore officia ut magna pariatur reprehenderit et ex sit sunt. Magna proident ullamco adipisicing sit.
-    url: https://example.com
-  categories: ["image-processing"]
-  tags: ["Image Processing", "Computer Vision"]
+    summary: The paper proposes a novel model for detecting arbitrarily-oriented objects, such as texts/hands or objects in aerial images. The model evolves the axis-aligned bounding box to an oriented quadrilateral box using contour information. 
+    url: https://ieeexplore.ieee.org/abstract/document/9761381
+  categories: ["cv"]
+  tags: ["object detection"]
 
-- title: An Example Paper on Security
+
+- title: "ChartOCR: Data Extraction from Charts Images via a Deep Hybrid Framework."
   publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
+    name: WACV 2021
+    url: https://wacv2021.thecvf.com/home
   authors:
-  - name: Dr. Madman
+  - name: Junyu Luo
     url: https://example.com
-  - name: Dr. Lessmad
+  - name: Zekun Li
+    url: https://zekun-li.github.io
+  - name: Jinpeng Wang
     url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
+  - name: Chin-Yew Lin
     url: https://example.com
   paper:
-    summary: Dolor ad cupidatat pariatur nulla ipsum ex ullamco nisi anim ullamco. Dolore elit esse in exercitation minim aliqua. Amet velit incididunt magna laboris. Proident reprehenderit deserunt ad officia duis dolor. Tempor nostrud ullamco ullamco sint deserunt cupidatat irure minim consectetur nulla adipisicing sunt.
+    summary: The paper proposes an unified method, called ChartOCR, to extract data from various types of chart images, including bar charts, line charts, and pie charts. We combine deep learning and rule-based methods to achieve generalization ability and obtain accurate and semantic-rich intermediate results. 
+    url: https://openaccess.thecvf.com/content/WACV2021/papers/Luo_ChartOCR_Data_Extraction_From_Charts_Images_via_a_Deep_Hybrid_WACV_2021_paper.pdf
+  categories: ["cv"]
+  tags: ["object detection"]
+
+
+
+- title: "An Automatic Approach for Generating Rich, Linked Geo-Metadata from Historical Map Images"
+  publishedIn:
+    name: KDD 2020
+    url: https://www.kdd.org/kdd2020/
+  authors:
+  - name: Zekun Li
+    url: https://zekun-li.github.io 
+  - name: Yao-Yi Chiang
     url: https://example.com
-  categories: ["security"]
-  tags: ["Machine Learning", "Autonomous Driving", "Machine Vision"]
+  - name: Sasan Tavakkol
+    url: https://example.com
+  - name: Basel Shbita
+    url: https://example.com
+  - name: Johannes H. Uhl
+    url: https://example.com
+  - name: Stefan Leyk
+    url: https://example.com
+  - name: Craig A. Knoblock
+    url: https://example.com
+  paper:
+    summary: We present an end-to-end approach that automatically processes historical map images to extract their text content and generate a set of metadata linked to large geographic databases. The approach combines OCR with geocoding to accurately identify location phrases and assign geospatial coordinates. 
+    url: https://dl.acm.org/doi/pdf/10.1145/3394486.3403381
+  categories: ["cv","maps"]
+  tags: ["maps", "object detection"]
+
+
+
+- title: "Synthetic Map Generation to Provide Unlimited Training Data for Historical Map Text Detection"
+  publishedIn:
+    name: SIGSPATIAL GeoAI workshop 2021
+    url: https://wacv2021.thecvf.com/home
+  authors:
+  - name: Zekun Li
+    url: https://zekun-li.github.io
+  - name: Runyu Guan
+    url: https://example.com 
+  - name: Qianmu Yu
+    url: https://example.com
+  - name: Yao-Yi Chiang
+    url: https://example.com
+  - name: Craig A. Knoblock
+    url: https://example.com
+  paper:
+    summary: Many text detection algorithms have been proposed to locate text regions in map images automatically, but most of the algorithms are trained on out-of-domain datasets. This paper introduces a method to automatically generate an unlimited amount of annotated historical map images for training text detection models.
+    url: files/GEOAI_2021.pdf
+  categories: ["cv","maps"]
+  tags: ["maps", "text detection"]
+
+
+- title: "Combining Remote-Sensing-Derived Data and Historical Maps for Long-Term Back-Casting of Urban Extents."
+  publishedIn:
+    name: Remote Sensing 2021
+    url: https://www.mdpi.com/2072-4292/13
+  authors:
+  - name: Johannes H. Uhl
+    url: https://example.com
+  - name: Stefan Leyk
+    url: https://example.com
+  - name: Zekun Li
+    url: https://zekun-li.github.io 
+  - name: Weiwei Duan
+    url: https://example.com
+  - name: Basel Shbita
+    url: https://example.com
+  - name: Yao-Yi Chiang
+    url: https://example.com
+  - name: Craig A. Knoblock
+    url: https://example.com
+  paper:
+    summary: The paper proposes a framework that uses remote sensing data (the Global Human Settlement Layer, GHSL) and georeferenced historical maps to generate historical urban extents for the early 20th century.
+    url: https://www.mdpi.com/2072-4292/13/18/3672
+  categories: ["maps"]
+  tags: ["object detection"]
+
+
+
+- title: "Weighted Feature Pooling Network in Template-Based Recognition"
+  publishedIn:
+    name: ACCV 2019
+    url: https://researchr.org/conference/accv-2019
+  authors:
+  - name: Zekun Li
+    url: https://zekun-li.github.io 
+  - name: Yue Wu
+    url: https://example.com
+  - name: Wael Abd-Almageed
+    url: https://example.com
+  - name: Prem Natarajan
+    url: https://example.com
+  paper:
+    summary: The paper proposes a template-based learning approach for computer vision tasks, where multiple instances of a concept are available. The method dynamically predicts weights that consider noise and redundancy to aggregate image-level features into a single template-level representation. 
+    url: "files/accv_0585.pdf"
+  categories: ["cv"]
+  tags: ["object detection"]
+
