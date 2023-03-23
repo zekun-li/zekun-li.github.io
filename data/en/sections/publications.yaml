@@ -12,12 +12,12 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: "Machine Learning"
-  filter: "machinelearning"
-- name: "Image Processing"
-  filter: "image-processing"
-- name: Security
-  filter: "security"
+- name: "Computer Vision"
+  filter: "computer-vision"
+- name: "Natural Language Processing"
+  filter: "natural-language-processing"
+- name: "Maps and Geospaital Data"
+  filter: "maps"
 
 # your publications
 publications:
