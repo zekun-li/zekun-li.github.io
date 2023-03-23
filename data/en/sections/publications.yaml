@@ -13,11 +13,11 @@ buttons:
 - name: All
   filter: "all"
 - name: "Computer Vision"
-  filter: "computervision"
+  filter: "cv"
 - name: "Natural Language Processing"
   filter: "nlp"
 - name: "Maps and Geospaital Data"
-  filter: "maps"
+  filter: "map"
 
 # your publications
 publications:
@@ -28,16 +28,18 @@ publications:
     url: https://aclanthology.org/2022.findings-emnlp.200
   authors:
   - name: Zekun Li
-    # url: https://example.com
+    url: https://zekun-li.github.io
   - name: Jina Kim
-    # url: https://example.com
+    url: https://jina-kim.github.io/
   - name: Yao-Yi Chiang
+    url: https://yaoyichi.github.io/
   - name: Muhao Chen
+    url: https://muhaochen.github.io/
   paper:
     summary: Voluptate in id id voluptate laboris. Minim mollit aliquip sit aliqua ut exercitation voluptate eiusmod consequat pariatur sunt enim veniam. Velit esse tempor laboris anim tempor officia. Magna non labore duis do esse sit do ipsum culpa. Officia consequat id non duis culpa dolor. Excepteur magna non nostrud cupidatat aute aliqua aliquip.
     url: https://example.com
   categories: ["nlp"]
-  tags: ["geospatial", "map", "nlp"]
+  tags: ["map", "nlp"]
 
 - title: An Sample Paper on Image Processing
   publishedIn:
