@@ -6,7 +6,7 @@ menu:
   sidebar:
     name: ChatGPT for Novel Translation
     identifier: chatgpt
-    weight: 5
+    weight: 12
 tags: ["chatgpt", "nlp"]
 categories: ["nlp"]
 ---
