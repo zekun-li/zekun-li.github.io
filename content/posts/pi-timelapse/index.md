@@ -1,6 +1,6 @@
 ---
 title: "Raspberry Pi Timelapse Video"
-date: 2021-11-14
+date: 2022-11-14
 description: Raspberry Pi Timelapse Video
 menu:
   sidebar:

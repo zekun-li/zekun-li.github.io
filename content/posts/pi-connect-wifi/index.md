@@ -1,6 +1,6 @@
 ---
 title: "Raspberry Pi Connect To WIFI with Command"
-date: 2022-10-14
+date: 2021-10-14
 description: Connect Raspberry Pi to WIFI without GUI
 menu:
   sidebar:
