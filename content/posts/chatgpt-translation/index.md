@@ -40,7 +40,7 @@ First, import the necessary packages:
 ```python
 import requests, uuid, json
 import argparse
-from cred import mykey, mylocation, chatkey
+# from cred import mykey, mylocation, chatkey
 import math
 import openai
 import pdb 
