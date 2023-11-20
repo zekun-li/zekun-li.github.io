@@ -18,7 +18,7 @@ company:
 resume: "files/Zekun_Resume_202304.pdf"
 
 # a summary about you
-summary: 'I am a computer science Ph.D. student at the University of Minnesota (UMN). My research interest is on the automatic understanding of historical maps with **computer vision** and **natural language processing** techniques. I have worked on text detection of historical map labels, connecting separated text labels, linking recognized place names to existing knowledge bases (entity linking) and label type inference (entity typing). Previously at the University of Southern California (USC), I also worked on object detection projects in the Information Sciences Institute (ISI) and Spatial Sciences Institute (SSI).'
+summary: 'I am a computer science Ph.D. student at the University of Minnesota (UMN), working with Professor Yao-Yi Chiang. My research interest is on the automatic understanding of historical maps with **computer vision** and **natural language processing** techniques. I have worked on text detection of historical map labels, connecting separated text labels, linking recognized place names to existing knowledge bases (entity linking) and label type inference (entity typing). Previously at the University of Southern California (USC), I also worked on object detection projects in the Information Sciences Institute (ISI) and Spatial Sciences Institute (SSI).'
 
 #supervised by Prof. Yao-Yi Chiang (https://yaoyichi.github.io/)
 
